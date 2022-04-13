@@ -126,3 +126,19 @@ $ --> dolloar sign
 > --> greater Than 
 < --> less than 
 ```
+
+curl:
+
+`-o` to save file with the name 
+```bash
+$curl -O https://cdn.jsdelivr.net/npm/vue/dist/vue.js
+
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  335k    0  335k    0     0   717k      0 --:--:-- --:--:-- --:--:--  717k
+
+
+```
+
+
+

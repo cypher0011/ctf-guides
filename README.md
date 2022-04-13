@@ -107,3 +107,22 @@ D'`%_p8~}ZG{zU6wutt1O`.o]I$#G4W2CdzR>==u)]xqYonsrqj0hPlkdcb(`Hd]#a`_A@VzZY;QuO7S
 
 🚀 🍦 👽
 
+
+## Signs & symbols
+
+```
+% --> percent
+_ --> underscore
+" --> quotation mark
+. --> Full Stop / dot
+| --> Bar / pipe
+$ --> dolloar sign
+& --> and
+{} -> curly brackets
+[] -> square brackets
+? --> question mark
+/ --> slash
+! --> exclamation mark
+> --> greater Than 
+< --> less than 
+```

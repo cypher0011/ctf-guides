@@ -3,30 +3,30 @@ this guides will give the basic of all ctfs
 
 
 
-base64:
+[base64:](https://en.wikipedia.org/wiki/Base64)
 is mix of number and letters upper or lower cases and it's famous with the two equal symbols
 ```
 ZmxhZ3tjdGZfZ3VpZGVzX2lzX3RoZV9iZXN0fQ==
 ```
-base32:
+[base32:](https://en.wikipedia.org/wiki/Base32)
 is mix of uppercase letters and numbers and it's famous with the two equal symbols
 ```
 MZWGCZ33MN2GMX3HOVUWIZLTL5UXGX3UNBSV6YTFON2H2===
 ```
-base85:
+[base85:](https://en.wikipedia.org/wiki/Ascii85)
 is mix of upper and lower cases and symbols and numbers
 ```
 Ao(mgHXh/0?Y=LqA7]ghBldX'BOtO[ATMsA
 ```
 
-MD5:
+[MD5:](https://en.wikipedia.org/wiki/MD5)
 is mix of numbers and lower cases letters and it's take 32 letter
 ```
 a6ae0a241845bcf96c67b709e9fa7930
 21232f297a57a5a743894a0e4a801fc3
 63a9f0ea7bb98050796b649e85481845
 ```
-SHA***:
+[SHA***:](https://en.wikipedia.org/wiki/SHA-1)
 is mix of numbers and lower cases letters and it's take 40 letter
 ```
 40bd001563085fc35165329ea1ff5c5ecbdbbeef
@@ -104,4 +104,6 @@ it's look like base85 but it's not it' longer than base85
 ```
 D'`%_p8~}ZG{zU6wutt1O`.o]I$#G4W2CdzR>==u)]xqYonsrqj0hPlkdcb(`Hd]#a`_A@VzZY;QuO7SLKJnNM/EiI+G@d'C<;@?8\<5{3W76v4-Q10/('K+*#('&}C{cy?}_{zyxq7onsrkj0nPf,jLbaf_%F\[Z_XW{U=YXWPt7SRKJImG/EJCHAeE'&<;@?8\<;4981U/u3,+*N(-&%*#G'&}$#"y?}|{]s9&
 ```
+
+🚀 🍦 👽
 

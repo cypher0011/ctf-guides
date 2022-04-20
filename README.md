@@ -204,6 +204,12 @@ curl -L -b "oraclelicense=a" -O http://download.oracle.com/otn-pub/java/jdk/10.0
 `-H` to send header to the server
 ```bash
 curl https://reqbin.com/echo/get/json -H "X-Powered-By: ReqBin HTTP Client"
+
+curl https://reqbin.com/echo/get/json
+   -H "X-Custom-Header: value"
+   -H "Content-Type: application/json"
+     
+
 ```
 
 

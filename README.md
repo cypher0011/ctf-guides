@@ -192,6 +192,16 @@ curl --limit-rate 1m -O https://dl.google.com/go/go1.10.3.linux-amd64.tar.gz
 curl -X POST http://www.yourwebsite.com/login/ -d 'username=yourusername&password=yourpassword'
 ```
 
+`-L` to follow any redirect until it reaches the final destination
+```bash
+curl -L google.com
+```
+`-b` to send cookies to the server
+```bash
+curl -L -b "oraclelicense=a" -O http://download.oracle.com/otn-pub/java/jdk/10.0.2+13/19aef61b38124481863b1413dce1855f/jdk-10.0.2_linux-x64_bin.rpm
+`
+
+
 
 curl examples:
 ```

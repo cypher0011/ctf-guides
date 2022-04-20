@@ -209,6 +209,8 @@ curl https://reqbin.com/echo/get/json
    -H "X-Custom-Header: value"
    -H "Content-Type: application/json"
      
+    
+curl -H "User-Agent: PicoBrowser" -H "Referer: http://mercury.picoctf.net:39114/" http://mercury.picoctf.net:39114/ -H "Date: Wed, 21 Oct 2018 07:28:00 GMT" -H "DNT: 1" -H "X-Forwarded-For: 31.3.152.55" -H "Accept-Language: sv,en;q=0.9"
 
 ```
 

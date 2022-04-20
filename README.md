@@ -201,6 +201,11 @@ curl -L google.com
 curl -L -b "oraclelicense=a" -O http://download.oracle.com/otn-pub/java/jdk/10.0.2+13/19aef61b38124481863b1413dce1855f/jdk-10.0.2_linux-x64_bin.rpm
 ```
 
+`-H` to send header to the server
+```bash
+curl https://reqbin.com/echo/get/json -H "X-Powered-By: ReqBin HTTP Client"
+```
+
 
 
 curl examples:

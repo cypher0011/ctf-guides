@@ -223,8 +223,15 @@ For example, to download the Oracle Java JDK rpm file jdk-10.0.2_linux-x64_bin.r
 curl -L -b "oraclelicense=a" -O http://download.oracle.com/otn-pub/java/jdk/10.0.2+13/19aef61b38124481863b1413dce1855f/jdk-10.0.2_linux-x64_bin.rpm
 ```
 
+test
+```
+tshark -r chall.pcapng -x 'icmp and ip.src == 192.168.2.84' | grep 0020 | awk '{print $12}' | sed 's/...//' | tr '\n' ' ' > sus.txt && subl sus.txt
 
 
+zip2john Y0ullNeverG0nnaF1ndMe.rar > hash.txt
+john --wordlist=/usr/share/wordlists/rockyou.txt  hash.txt
+john --wordlist=/usr/share/wordlists/rockyou.txt  hash.txt --show
+nmap -A 10.10.110.101 -vvvvvvvvvv 
 
 
 

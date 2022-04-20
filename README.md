@@ -171,7 +171,20 @@ curl -I https://www.ubuntu.com/
 curl -I --http2 -S https://linuxize.com/
 ```
 
+`-A` to change the user-agent 
+```bash
+curl -A "Mozilla/5.0 (X11; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0" https://getfedora.org/
+```
 
+`--limit-rate` to determine the speed of downloading files 
+
+```bash
+K = kilobyte
+M = migabyte
+G = gigabyte
+
+curl --limit-rate 1m -O https://dl.google.com/go/go1.10.3.linux-amd64.tar.gz
+```
 
 
 

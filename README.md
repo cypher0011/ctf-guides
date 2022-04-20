@@ -14,9 +14,14 @@ is mix of uppercase letters and numbers and it's famous with the two equal symbo
 MZWGCZ33MN2GMX3HOVUWIZLTL5UXGX3UNBSV6YTFON2H2===
 ```
 [base85:](https://en.wikipedia.org/wiki/Ascii85)
-is mix of upper and lower cases and symbols and numbers
+is mix of upper and lower cases and symbols and numbers except:( |, w, x, y, z, {, v, ~, } )
 ```
 Ao(mgHXh/0?Y=LqA7]ghBldX'BOtO[ATMsA
+```
+[base85_IPv6:](https://gchq.github.io/CyberChef/#recipe=From_Base85('0-9A-Za-z!%23$%25%26()*%2B%5C%5C-;%3C%3D%3E?@%5E_%60%7B%7C%7D~'))
+is mix of upper and lower cases and symbols and numbers 
+```
+Mr>hcdt)&(H83+dVKg%`F*7t|VliepHDNF}H9283Wo0%oIeh
 ```
 
 [MD5:](https://en.wikipedia.org/wiki/MD5)
@@ -136,9 +141,24 @@ $curl -O https://cdn.jsdelivr.net/npm/vue/dist/vue.js
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
 100  335k    0  335k    0     0   717k      0 --:--:-- --:--:-- --:--:--  717k
-
-
 ```
+
+`-X` to change request method for {GET,HEAD,POST,PUT,DELETE,OPTIONS}
+```bash
+$curl -X GET https://cdn.jsdelivr.net/npm/vue/dist/vue.js
+```
+
+`-C –` to contune download a file that's stop 
+
+```bash
+
+before:
+curl -O http://releases.ubuntu.com/18.04/ubuntu-18.04-live-server-amd64.iso
+
+after:
+curl -C - -O http://releases.ubuntu.com/18.04/ubuntu-18.04-live-server-amd64.iso
+```
+
 
 
 

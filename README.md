@@ -159,6 +159,30 @@ after:
 curl -C - -O http://releases.ubuntu.com/18.04/ubuntu-18.04-live-server-amd64.iso
 ```
 
+`-I` to fetch only the HTTP headers of the specified resource
+
+```bash
+curl -I https://www.ubuntu.com/
+```
+
+`-S` to work in the silent mode with no error
+
+```bash
+curl -I --http2 -S https://linuxize.com/
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

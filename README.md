@@ -199,7 +199,7 @@ curl -L google.com
 `-b` to send cookies to the server
 ```bash
 curl -L -b "oraclelicense=a" -O http://download.oracle.com/otn-pub/java/jdk/10.0.2+13/19aef61b38124481863b1413dce1855f/jdk-10.0.2_linux-x64_bin.rpm
-`
+```
 
 
 

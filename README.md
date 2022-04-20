@@ -233,6 +233,23 @@ john --wordlist=/usr/share/wordlists/rockyou.txt  hash.txt
 john --wordlist=/usr/share/wordlists/rockyou.txt  hash.txt --show
 nmap -A 10.10.110.101 -vvvvvvvvvv 
 
+```
+
+
+
+tshark:
+
+`-r` to read the file
+```bash
+tshark -r chall.pcapng 
+```
+
+`-x` to search in the searchbar
+```
+tshark -r chall.pcapng -x 'icmp and ip.src == 192.168.2.84'
+```
+
+
 
 
 

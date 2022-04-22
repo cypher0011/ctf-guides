@@ -212,6 +212,10 @@ curl https://reqbin.com/echo/get/json
     
 curl -H "User-Agent: PicoBrowser" -H "Referer: http://mercury.picoctf.net:39114/" http://mercury.picoctf.net:39114/ -H "Date: Wed, 21 Oct 2018 07:28:00 GMT" -H "DNT: 1" -H "X-Forwarded-For: 31.3.152.55" -H "Accept-Language: sv,en;q=0.9"
 
+
+example: 
+curl -X POST  -H 'Content-Type: application/json' -d '{"key":"fbd3f6e31a2125f479ce3e1e66bc0535"}' alhashimi.tech/cmd-practice/challengeTwo/cmds3cr37k3y
+
 ```
 
 

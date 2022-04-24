@@ -121,7 +121,10 @@ The tap code is based on a Polybius square using a 5×5 grid of letters represen
 | 4 | Q | R |  S  | T | U |
 | 5 | V | W |  X  | Y | Z |
 
-example:
+<details>
+  <summary>Explanation</summary>
+
+
 
  W | A |  T  | E | R |
 :-:|:-:|:---:|:-:|:-:|
@@ -130,7 +133,7 @@ example:
 
 The message is: ``` ••••• ••   • •   •••• ••••   • •••••   •••• •• ```
 
-
+</details>
 
 
 

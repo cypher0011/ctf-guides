@@ -104,6 +104,14 @@ it's flip the letters and numbers only symbols don't change
 synt{pgsthvqrf}
 
 ```
+[Keyboard Shift](https://www.dcode.fr/keyboard-shift-cipher)
+there is a different between your keyboard and the other keyboards in the world
+```
+gmzh{vygèhiofrd}
+g;sh}vyg=hiofrd|
+g/oc}rngacidhu-~
+```
+
 [malbolge](https://en.wikipedia.org/wiki/Malbolge)
 it's look like base85 but it's not it' longer than base85
 ```

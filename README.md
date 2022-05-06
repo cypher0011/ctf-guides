@@ -282,6 +282,19 @@ john
 john [hash.txt] --format=[the_format] --wordlist=[pass]
 ```
 
+gostbuster 
+```
+gobuster dir -u http://<TARGET_IP> -w <PATH_TO_WORDLIST> -o <OUTPUT_FILE_NAME> -x <EXTENSIONS>
+
+-u : URL
+-w : Wordlist
+-q : quiet , silent scan. Will hide banner
+-o : Output to be stored in the directory
+-x : Search for extensions e.g. html,txt,php,phtml etc
+
+```
+
+
 
 resources:
 [^1]:https://github.com/digital-overdose/ctf-writeups/edit/main/2022-KNIGHT_CTF/ALPHABET_KNOCK_CODE.md

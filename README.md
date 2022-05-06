@@ -199,11 +199,21 @@ nc -lnvp [port]
 ffuf
 ```bash
 ffuf -u http://[link]/FUZZ -w /usr/share/SecLists/Discovery/Web-Content/directory-list-2.3-medium.txt  -fs [stop this request num]
+```
+```
+https://github.com/pentestmonkey/php-reverse-shell
 
+bypass the upload by changing the file extension : pht, phpt, phtml, php3, php4,php5,php6
+
+mv php_reverse_shell.php php_reverse_shell.phtml
+
+
+```
 
 
 resources:
 [^1]:https://github.com/digital-overdose/ctf-writeups/edit/main/2022-KNIGHT_CTF/ALPHABET_KNOCK_CODE.md
+
 
 
 

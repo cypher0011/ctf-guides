@@ -200,6 +200,8 @@ ffuf
 ```bash
 ffuf -u http://[link]/FUZZ -w /usr/share/SecLists/Discovery/Web-Content/directory-list-2.3-medium.txt  -fs [stop this request num]
 ```
+
+php-reverse-shell
 ```
 https://github.com/pentestmonkey/php-reverse-shell
 

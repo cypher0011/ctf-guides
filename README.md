@@ -235,8 +235,13 @@ always read the discripotion before lunch
 
 example we found in gtfobins : python -c ‘import os; os.execl(“/bin/sh”, “sh”, “-p”)’
 
-
 ```
+
+reverse shell tips:
+```
+https://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet
+```
+
 
 hashs handle with
 ```bash

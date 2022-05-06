@@ -205,6 +205,8 @@ https://github.com/pentestmonkey/php-reverse-shell
 
 bypass the upload by changing the file extension : pht, phpt, phtml, php3, php4,php5,php6
 
+secnod: php_reverse_shell.jpg.php
+
 mv php_reverse_shell.php php_reverse_shell.phtml
 
 

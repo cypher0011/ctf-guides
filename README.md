@@ -339,6 +339,13 @@ wear:
 ```
 calculator://-
 ```
+secert ip domains how to get : 
+```
+ip addr 
+route
+ip route add [the_switch_with/24] via the router [10.175.34.0/24 == 10.175.34.1]
+```
+
 
 resources:
 [^1]:https://github.com/digital-overdose/ctf-writeups/edit/main/2022-KNIGHT_CTF/ALPHABET_KNOCK_CODE.md

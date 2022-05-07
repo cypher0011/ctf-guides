@@ -335,6 +335,11 @@ de4js - A tool that can work through JS obfuscation techniques.
 [de4js](https://lelinhtinh.github.io/de4js/)
 
 
+wear:
+```
+calculator://-
+```
+
 resources:
 [^1]:https://github.com/digital-overdose/ctf-writeups/edit/main/2022-KNIGHT_CTF/ALPHABET_KNOCK_CODE.md
 

